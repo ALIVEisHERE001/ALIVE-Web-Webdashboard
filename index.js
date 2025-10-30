@@ -9,7 +9,8 @@ class WebdashboardSystem {
         this.name = 'ALIVE-Web-Webdashboard';
         this.type = 'web_dashboard';
         this.app = express();
-        this.port = process.env.PORT || 3000;
+    // Created by ALIVE 3.0 ULTIMATE COMPLETE AI
+
         
         this.setupMiddleware();
         this.setupRoutes();
